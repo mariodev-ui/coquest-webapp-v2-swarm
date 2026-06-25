@@ -8,6 +8,7 @@ services:
       - ./backend:/app
     environment:
       - NAME=World
+      - STRIPE_SECRET_KEY=your_stripe_secret_key_here
 
   frontend:
     build: ./frontend
