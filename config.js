@@ -1,0 +1,5 @@
+module.exports = {
+  app_name: 'Claude Code',
+  version: '1.0.0',
+  environment: 'development'
+};
