@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "maven"
+    directory: "/pom.xml"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "go"
+    directory: "/"
+    schedule:
+      interval: "daily"
