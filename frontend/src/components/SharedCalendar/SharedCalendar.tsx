@@ -1,11 +1,3 @@
 import React from 'react';
 
-const SharedCalendar = () => {
-  return (
-    <div>
-      {/* Calendar component */}
-    </div>
-  );
-};
-
-export default SharedCalendar;
+// Remove the SharedCalendar component as it is not being used
